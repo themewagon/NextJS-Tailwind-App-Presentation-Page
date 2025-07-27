@@ -13,8 +13,7 @@ export function Footer() {
           <div className="text-center md:text-left">
             <Typography
               as="a"
-              href="https://www.material-tailwind.com"
-              target="_blank"
+              href="#!"
               variant="h5"
               color="white"
               className="mb-4"
@@ -29,7 +28,7 @@ export function Footer() {
                 <li key={link}>
                   <Typography
                     as="a"
-                    href="#"
+                    href="#!"
                     color="white"
                     className={`py-1 font-medium transition-colors ${
                       idx === 0 ? "pr-3" : "px-3"
@@ -81,12 +80,16 @@ export function Footer() {
             className="text-center font-normal opacity-75"
           >
             &copy; {CURRENT_YEAR} Made with{" "}
-            <a href="https://www.material-tailwind.com" target="_blank">
+            <a>
               Material Tailwind
             </a>{" "}
             by{" "}
             <a href="https://www.creative-tim.com" target="_blank">
               Creative Tim
+            </a>
+            <a>{" "} |{" "}
+              Distributed by{" "}
+              <a href="https://themewagon.com/" target="_blank" >ThemeWagon</a>
             </a>
             .
           </Typography>

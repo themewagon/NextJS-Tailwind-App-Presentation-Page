@@ -68,8 +68,8 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <Typography
           as="a"
-          href="https://www.material-tailwind.com"
-          target="_blank"
+          href="#!"
+        //   target="_blank"
           variant="h6"
           color={isScrolling ? "gray" : "white"}
         >
@@ -83,7 +83,7 @@ export function Navbar() {
           <NavItem>Home</NavItem>
           <NavItem>About Us</NavItem>
           <NavItem>Contact Us</NavItem>
-          <NavItem href="https://www.material-tailwind.com/docs/react/installation">
+          <NavItem>
             Docs
           </NavItem>
         </ul>
@@ -109,7 +109,7 @@ export function Navbar() {
           >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
+          <a href="#!">
             <Button color={isScrolling ? "gray" : "white"} size="sm">
               Blocks
             </Button>
@@ -134,7 +134,7 @@ export function Navbar() {
             <NavItem>Home</NavItem>
             <NavItem>About Us</NavItem>
             <NavItem>Contact Us</NavItem>
-            <NavItem href="https://www.material-tailwind.com/docs/react/installation">
+            <NavItem>
               Docs
             </NavItem>
           </ul>
@@ -148,7 +148,7 @@ export function Navbar() {
             <IconButton variant="text" color="gray" size="sm">
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
-            <a href="https://www.material-tailwind.com/blocks" target="_blank">
+            <a href="#!">
               <Button color="gray" size="sm" className="ml-auto">
                 Blocks
               </Button>
