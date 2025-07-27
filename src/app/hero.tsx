@@ -33,7 +33,7 @@ function Hero() {
                 <Image
                   width={256}
                   height={256}
-                  src="/logos/logo-apple.png"
+                  src="NextJS-Tailwind-App-Presentation-Page/logos/logo-apple.png"
                   alt="metamask"
                   className="w-6 h-6"
                 />
@@ -47,7 +47,7 @@ function Hero() {
                 <Image
                   width={256}
                   height={256}
-                  src="/logos/logo-google.png"
+                  src="NextJS-Tailwind-App-Presentation-Page/logos/logo-google.png"
                   alt="metamask"
                   className="w-6 h-6"
                 />
@@ -58,7 +58,7 @@ function Hero() {
           <Image
             width={470}
             height={576}
-            src="/image/iphones.png"
+            src="NextJS-Tailwind-App-Presentation-Page/image/iphones.png"
             alt="team work"
             className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
           />
