@@ -4,16 +4,14 @@
   "private": true,
   "author": "Creative Tim",
   "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://themewagon.github.io/Notus-Next.js",
+  "homepage": "https://themewagon.github.io/NextJS-Tailwind-App-Presentation-Page",
   "scripts": {
-    "dev": "next dev",
+     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
-    "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css",
     "predeploy": "npm run build",
-    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
+    "deploy": "touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "@heroicons/react": "2.0.18",
