@@ -31,7 +31,7 @@ export function MobileConvenience() {
         <Image
           width={256}
           height={256}
-          src="NextJS-Tailwind-App-Presentation-Page/image/iphone.png"
+          src="/NextJS-Tailwind-App-Presentation-Page/image/iphone.png"
           className="col-span-1 w-1/2 mx-auto lg:w-10/12"
           alt="iphone-photo"
         />

@@ -14,7 +14,7 @@ export function VideoIntro() {
         <Image
           width={768}
           height={400}
-          src="NextJS-Tailwind-App-Presentation-Page/image/Background.png"
+          src="/NextJS-Tailwind-App-Presentation-Page/image/Background.png"
           className="w-full object-cover scale-110 rounded-xl h-full"
           alt=""
         />
