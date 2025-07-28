@@ -1,10 +1,10 @@
-# Si-Educational Free Next.js Educational Website Template
+# MaterialTailwind - Free Next.js Tailwind Presentation Page
 #### Preview
 
  - [Demo](https://themewagon.github.io/NextJS-Tailwind-App-Presentation-Page/)
 
 #### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/Si-educational)
+ - [Download from ThemeWagon](https://themewagon.com/themes/)
 
 ## Getting Started
 
